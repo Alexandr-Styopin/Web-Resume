@@ -1,0 +1,274 @@
+/* reset */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  width: 1280px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 0 auto;
+}
+
+/* header */
+header {
+  margin-bottom: 16px;
+}
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.header-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #d9d9d9;
+}
+.avatar {
+  display: block;
+  position: relative;
+  margin-right: auto;
+
+  width: 280px;
+  height: 280px;
+  border-radius: 280px;
+  background: #f8c23b;
+}
+
+.avatar__img {
+  display: block;
+  width: 240px;
+  height: 240px;
+  border-radius: 240px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
+.employee-info {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  height: 180px;
+  background: #262626;
+}
+
+.name {
+  font-family: Montserrat;
+  font-size: 66px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  color: #fff;
+
+  margin-left: auto;
+  margin-right: 50px;
+  margin-bottom: 5px;
+}
+
+.post {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.92px;
+
+  color: #d9d9d9;
+
+  margin-left: auto;
+  margin-right: 50px;
+  margin-bottom: auto;
+}
+.line {
+  width: auto;
+  height: 20px;
+  background: #f8c23b;
+}
+
+/* main */
+.main-container {
+  display: flex;
+}
+
+/* info */
+.main-container {
+  display: flex;
+}
+.info-bar__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 100px;
+  margin-right: 16px;
+
+  width: 383px;
+  background: #262626;
+}
+
+.info-bar__title {
+  font-family: Poppins;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #262626;
+
+  padding-left: 10px;
+  margin-bottom: 15px;
+  width: 300px;
+  height: 39px;
+  background: #f8c23b;
+}
+
+.info-bar__text {
+  color: #fff;
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.info-bar__sub-text {
+  color: #fff;
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.info-bar__item {
+  width: 300px;
+  margin-bottom: 30px;
+}
+.info-bar__list {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.contact-list {
+  margin-bottom: 20px;
+}
+.contact__item {
+  display: flex;
+  align-items: center;
+}
+.contact-icon {
+  fill: #f8c23b;
+  margin: 10px;
+}
+
+/* content */
+.section {
+  margin-bottom: 30px;
+}
+
+.content-section {
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background: #d9d9d9;
+}
+.content-section__title {
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #fcfcfc;
+
+  padding-left: 10px;
+  margin-bottom: 20px;
+  width: 283px;
+  height: 45px;
+  background: #252525;
+}
+
+.content-name {
+  color: #000;
+
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.content-text {
+  color: #000;
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+/* footer */
+
+.footer-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #262626;
+}
+.footer-info__name {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  color: #fff;
+}
+
+.footer-info__post {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.92px;
+
+  color: #d9d9d9;
+}
+.footer-info__date {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.92px;
+
+  color: #d9d9d9;
+}
