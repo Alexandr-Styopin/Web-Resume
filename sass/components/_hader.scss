@@ -1,0 +1,81 @@
+header {
+  margin-bottom: 16px;
+}
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.header-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #d9d9d9;
+}
+.avatar {
+  display: block;
+  position: relative;
+  margin-right: auto;
+
+  width: 280px;
+  height: 280px;
+  border-radius: 280px;
+  background: #f8c23b;
+}
+
+.avatar__img {
+  display: block;
+  width: 240px;
+  height: 240px;
+  border-radius: 240px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
+.employee-info {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  height: 180px;
+  background: #262626;
+}
+
+.name {
+  font-family: Montserrat, sans-serif;
+  font-size: 66px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  color: #fff;
+
+  margin-left: auto;
+  margin-right: 50px;
+  margin-bottom: 5px;
+}
+
+.post {
+  font-family: Montserrat, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.92px;
+
+  color: #d9d9d9;
+
+  margin-left: auto;
+  margin-right: 50px;
+  margin-bottom: auto;
+}
+.line {
+  width: auto;
+  height: 20px;
+  background: #f8c23b;
+}

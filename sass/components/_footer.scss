@@ -1,0 +1,36 @@
+.footer-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #262626;
+}
+.footer-info__name {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  color: #fff;
+}
+
+.footer-info__post {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.92px;
+
+  color: #d9d9d9;
+}
+.footer-info__date {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.92px;
+
+  color: #d9d9d9;
+}

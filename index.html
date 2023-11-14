@@ -2,14 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" overview="IE=edge" />
+    <meta name="viewport" overview="width=device-width, initial-scale=1.0" />
     <title>Resume</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./css/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -41,89 +41,121 @@
     <main>
       <div class="container">
         <div class="main-container">
-          <section class="info-bar__section">
-            <div class="info-bar__item">
-              <h2 class="info-bar__title">Contact Me</h2>
-              <ul class="info-bar__list contact-list">
-                <li class="contact__item">
-                  <svg class="contact-icon" width="18px" height="18px">
-                    <use href="./img/icons.svg#phone-solid"></use>
-                  </svg>
-                  <p class="info-bar__text">+380984096654</p>
-                </li>
-                <li class="contact__item">
-                  <svg class="contact-icon" width="18px" height="18px">
-                    <use href="./img/icons.svg#mail"></use>
-                  </svg>
-                  <p class="info-bar__text">styopin.alexandr@gmail.com</p>
-                </li>
-              </ul>
+          <section class="info">
+            <div class="connection">
+              <div class="contact">
+                <h2 class="contact__title info-title">Contact Me</h2>
+                <ul class="contact-list">
+                  <li class="contact__item">
+                    <svg
+                      class="contact-icon connection-icon"
+                      width="17px"
+                      height="17px"
+                    >
+                      <use href="./img/icons.svg#phone-solid"></use>
+                    </svg>
+                    <p class="contact__text info-text">+380984096654</p>
+                  </li>
+                  <li class="contact__item">
+                    <svg
+                      class="contact-icon connection-icon"
+                      width="17px"
+                      height="17px"
+                    >
+                      <use href="./img/icons.svg#mail"></use>
+                    </svg>
+                    <p class="contact__text info-text">
+                      styopin.alexandr@gmail.com
+                    </p>
+                  </li>
+                </ul>
+              </div>
 
-              <ul class="info-bar__list">
-                <li class="contact__item">
-                  <svg class="contact-icon" width="18px" height="18px">
-                    <use href="./img/icons.svg#git"></use>
-                  </svg>
-                  <p class="info-bar__text">GitHub</p>
+              <div class="soc">
+                <ul class="soc__list">
+                  <li class="soc__item">
+                    <svg
+                      class="soc-icon connection-icon"
+                      width="17px"
+                      height="17px"
+                    >
+                      <use href="./img/icons.svg#git"></use>
+                    </svg>
+                    <p class="soc__text info-text">GitHub</p>
+                  </li>
+                  <li class="soc__item">
+                    <svg
+                      class="soc-icon connection-icon"
+                      width="17px"
+                      height="17px"
+                    >
+                      <use href="./img/icons.svg#linkedin"></use>
+                    </svg>
+                    <p class="soc__text info-text">Linkedin</p>
+                  </li>
+                  <li class="soc__item">
+                    <svg
+                      class="soc-icon connection-icon"
+                      width="17px"
+                      height="17px"
+                    >
+                      <use href="./img/icons.svg#telegram"></use>
+                    </svg>
+                    <p class="soc__text info-text">Telegram</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="Tech skills">
+              <h2 class="Tech skills__title info-title">Tech skills</h2>
+              <ul class="Tech skills__list info-list">
+                <li class="Tech skills__text info-text">CSS3</li>
+                <li class="Tech skills__text info-text">HTML5</li>
+                <li class="Tech skills__text info-text">Saas</li>
+                <li class="Tech skills__text info-text">JavaScript</li>
+                <li class="Tech skills__text info-text">
+                  React Hooks & Components
                 </li>
-                <li class="contact__item">
-                  <svg class="contact-icon" width="18px" height="18px">
-                    <use href="./img/icons.svg#linkedin"></use>
-                  </svg>
-                  <p class="info-bar__text">Linkedin</p>
-                </li>
-                <li class="contact__item">
-                  <svg class="contact-icon" width="18px" height="18px">
-                    <use href="./img/icons.svg#telegram"></use>
-                  </svg>
-                  <p class="info-bar__text">Telegram</p>
-                </li>
+                <li class="Tech skills__text info-text">React Redux</li>
+                <li class="Tech skills__text info-text">REST API</li>
+                <li class="Tech skills__text info-text">Node.js</li>
               </ul>
             </div>
 
-            <div class="info-bar__item">
-              <h2 class="info-bar__title">Tech skills</h2>
-              <ul class="info-bar__list">
-                <li class="info-bar__text">CSS3</li>
-                <li class="info-bar__text">HTML5</li>
-                <li class="info-bar__text">Saas</li>
-                <li class="info-bar__text">JavaScript</li>
-                <li class="info-bar__text">React Hooks & Components</li>
-                <li class="info-bar__text">React Redux</li>
-                <li class="info-bar__text">REST API</li>
-                <li class="info-bar__text">Node.js</li>
-              </ul>
-            </div>
-
-            <div class="info-bar__item">
-              <h2 class="info-bar__title">Soft Skills</h2>
-              <ul class="info-bar__list">
-                <li class="info-bar__text">Team Work</li>
-                <li class="info-bar__text">Problem Solving</li>
-                <li class="info-bar__text">Strong Adaptation Skills</li>
-                <li class="info-bar__text">High Analytics Skills</li>
-                <li class="info-bar__text">Communicative</li>
-              </ul>
-            </div>
-
-            <div class="info-bar__item">
-              <h2 class="info-bar__title">Languages</h2>
-              <ul class="info-bar__list">
-                <li class="leng__item">
-                  <p class="info-bar__text">Ukrainian</p>
-                  <p class="info-bar__sub-text">native</p>
+            <div class="Soft Skills">
+              <h2 class="Soft Skills__title info-title">Soft Skills</h2>
+              <ul class="Soft Skills__list info-list">
+                <li class="Soft Skills__text info-text">Team Work</li>
+                <li class="Soft Skills__text info-text">Problem Solving</li>
+                <li class="Soft Skills__text info-text">
+                  Strong Adaptation Skills
                 </li>
-                <li class="leng__item">
-                  <p class="info-bar__text">English</p>
-                  <p class="info-bar__sub-text">simple</p>
+                <li class="Soft Skills__text info-text">
+                  High Analytics Skills
+                </li>
+                <li class="Soft Skills__text info-text">Communicative</li>
+              </ul>
+            </div>
+
+            <div class="Languages">
+              <h2 class="Languages__title info-title">Languages</h2>
+              <ul class="Languages__list info-list">
+                <li class="Languages__item">
+                  <p class="Languages__text info-text">Ukrainian</p>
+                  <p class="Languages__sub-text info-sub-text">native</p>
+                </li>
+                <li class="Languages__item">
+                  <p class="Languages__text info-text">English</p>
+                  <p class="Languages__sub-text info-sub-text">simple</p>
                 </li>
               </ul>
             </div>
           </section>
-          <section class="content-section">
-            <div class="summary section">
-              <h3 class="summary__title content-section__title">SUMMARY</h3>
-              <p class="summary__text content-text">
+          <section class="overview">
+            <div class="summary overview__chapter">
+              <h3 class="summary__title overview__title">SUMMARY</h3>
+              <p class="summary__text overview-text">
                 I am a motivated and determined Frontend developer, passionate
                 about programming and creating interactive user interfaces. I am
                 communicative and team-oriented, capable of collaborating
@@ -135,22 +167,20 @@
               </p>
             </div>
 
-            <div class="experience section">
-              <h3 class="experience__title content-section__title">
-                Experience
-              </h3>
+            <div class="experience overview__chapter">
+              <h3 class="experience__title overview__title">Experience</h3>
               <ul class="experience__list">
                 <li class="experience__item">
-                  <h4 class="experience__name content-name">Ice Cream</h4>
-                  <p class="experience__text content-text">
+                  <h4 class="experience__name overview-name">Ice Cream</h4>
+                  <p class="experience__text overview-text">
                     Parcel, SCSS, JS] Ice company website with responsive
                     layout, burger menu, modal window and attractive design.
                     Role: developer
                   </p>
                 </li>
-                <li class="experience__item section">
-                  <h4 class="experience__name content-name">Wab Studio</h4>
-                  <p class="experience__text content-text">
+                <li class="experience__item">
+                  <h4 class="experience__name overview-name">Wab Studio</h4>
+                  <p class="experience__text overview-text">
                     Parcel, SCSS, JS] Ice company website with responsive
                     layout, burger menu, modal window and attractive design.
                     Role: developer
@@ -159,24 +189,24 @@
               </ul>
             </div>
 
-            <div class="education">
-              <h3 class="education__title content-section__title">Education</h3>
+            <div class="education overview__chapter">
+              <h3 class="education__title overview__title">Education</h3>
               <ul class="education__list">
                 <li class="education__item">
-                  <h4 class="education__name content-name">IT School GoIT</h4>
+                  <h4 class="education__name overview-name">IT School GoIT</h4>
                   <p class="education__years">2022-2023</p>
-                  <p class="education__text content-text">
+                  <p class="education__text overview-text">
                     Fullstack Developer
                   </p>
                 </li>
 
                 <li class="education__item">
-                  <h4 class="education__name content-name">
+                  <h4 class="education__name overview-name">
                     Melitopol Industrial and Economic College
                   </h4>
                   <p class="education__years">2006-2009</p>
 
-                  <p class="education__text content-text">
+                  <p class="education__text overview-text">
                     Technologist for the production of internal combustion
                     engines
                   </p>
