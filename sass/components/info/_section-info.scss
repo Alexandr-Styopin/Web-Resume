@@ -1,16 +1,27 @@
-.info {
+.section-info {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  background: #d9d9d9;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #262626;
 
-  padding-top: 100px;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-right: 16px;
-
-  width: 383px;
-  background: #262626;
+  @include point-tablet-min {
+    margin-right: 16px;
+    padding: 16px;
+  }
 }
+
+.section-info__list {
+  padding: 10px;
+  background-color: #262626;
+
+  @include point-tablet-min {
+    background-color: none;
+  }
+}
+
+////text
 
 .info-title {
   font-family: Poppins;
@@ -21,9 +32,6 @@
   color: #262626;
 
   padding-left: 10px;
-  margin-bottom: 15px;
-  width: 300px;
-  height: 39px;
   background: #f8c23b;
 }
 
@@ -45,9 +53,15 @@
 
   color: #fff;
 }
-.info-list {
+.section-info__list {
   padding-left: 10px;
   padding-right: 10px;
 }
-.info-category {
+
+.soc__link,
+.contact__link {
+  &:hover,
+  &:focus {
+    color: #f8c23b;
+  }
 }

@@ -1,0 +1,16 @@
+.connection {
+  background: #262626;
+
+  @include point-tablet-min {
+    background-color: none;
+  }
+}
+
+.connection__list {
+  padding: 10px;
+}
+
+.connection-icon {
+  fill: #f8c23b;
+  margin-right: 10px;
+}

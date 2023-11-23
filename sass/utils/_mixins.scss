@@ -1,0 +1,52 @@
+///////////// Fonts
+/// Name
+@mixin font-name($fw: 500, $fs: 31px, $ls: normal) {
+  font-weight: $fw;
+  font-size: $fs;
+  letter-spacing: $ls;
+}
+/////////////////////////
+
+@mixin point-mobile-min {
+  @media screen and (min-width: 480px) {
+    @content;
+  }
+}
+
+@mixin point-mobile-max {
+  @media screen and (max-width: 479px) {
+    @content;
+  }
+}
+
+// @mixin point-height {
+//   @media screen and (max-height: 608px) {
+//     @content;
+//   }
+// }
+
+///////768px
+@mixin point-tablet-min {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin point-tablet-max {
+  @media screen and (max-width: 767px) {
+    @content;
+  }
+}
+
+//////1200px
+@mixin point-desktop-min {
+  @media screen and (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin point-desktop-max {
+  @media screen and (max-width: 1199px) {
+    @content;
+  }
+}

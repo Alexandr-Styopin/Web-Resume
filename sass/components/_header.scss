@@ -1,0 +1,87 @@
+.header {
+  margin-bottom: 10px;
+  @include point-tablet-min {
+    margin-bottom: 16px;
+  }
+}
+
+.header-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #262626;
+  padding: 30px 20px 100px 20px;
+
+  @include point-tablet-min {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 45px 10px 45px;
+  }
+
+  @include point-desktop-min {
+    padding: 20px 90px 20px 40px;
+  }
+}
+
+.employee__avatar {
+  display: block;
+  width: 250px;
+  height: 250px;
+  border-radius: 280px;
+  background: #f8c23b;
+  position: relative;
+  margin-bottom: 35px;
+  @include point-tablet-min {
+    margin-bottom: 0px;
+  }
+}
+
+.avatar__img {
+  display: block;
+  width: 220px;
+  height: 220px;
+  border-radius: 240px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+.employee__info {
+  text-align: center;
+
+  @include point-desktop-min {
+    text-align: right;
+  }
+}
+.name {
+  @include font-name;
+  font-family: $font_header;
+  color: #fff;
+
+  margin-bottom: 5px;
+
+  @include point-tablet-min {
+    @include font-name(500, 38px);
+  }
+
+  @include point-desktop-min {
+    @include font-name(500, 69px);
+  }
+}
+
+.post {
+  @include font-name(400, 15px, 1.9px);
+  font-family: $font_header;
+
+  @include point-tablet-min {
+    @include font-name(400, 19px, 1.92px);
+  }
+
+  @include point-desktop-min {
+    @include font-name(400, 32px, 1.9px);
+  }
+
+  color: #d9d9d9;
+}

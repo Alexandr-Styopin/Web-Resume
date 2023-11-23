@@ -1,9 +1,21 @@
+@import "./utils/varibels";
 @import "./utils/utils";
-@import "./components/hader";
+@import "./utils/mixins";
+
+@import "./components/header";
+
 @import "./components/container";
-@import "./components/info";
-@import "./components/overview";
+
+@import "./components/info/section-info";
+@import "./components/info/conection/connection";
+@import "./components/info/conection/contact";
+@import "./components/info/conection/soc";
+@import "./components/info/languages";
+@import "./components/info/skills";
+
+@import "./components/overview/section-overview";
+@import "./components/overview/summary";
+@import "./components/overview/experience";
+@import "./components/overview/education";
+
 @import "./components/footer";
-@import "./components/connection";
-@import "./components/contact";
-@import "./components/soc";
