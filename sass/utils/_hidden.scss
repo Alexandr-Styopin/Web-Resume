@@ -1,0 +1,5 @@
+.hidden {
+  @include point-mobile-max {
+    display: none;
+  }
+}

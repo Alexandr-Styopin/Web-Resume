@@ -1,7 +1,7 @@
 @import "./utils/varibels";
 @import "./utils/utils";
 @import "./utils/mixins";
-
+@import "./utils/hidden";
 @import "./components/header";
 
 @import "./components/container";
@@ -17,5 +17,7 @@
 @import "./components/overview/summary";
 @import "./components/overview/experience";
 @import "./components/overview/education";
+
+@import "./components/button";
 
 @import "./components/footer";

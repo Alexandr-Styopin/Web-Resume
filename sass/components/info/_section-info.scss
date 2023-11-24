@@ -20,6 +20,9 @@
     background-color: none;
   }
 }
+.section-info__chapter:not(:last-child) {
+  margin-bottom: 10px;
+}
 
 ////text
 
@@ -33,6 +36,27 @@
 
   padding-left: 10px;
   background: #f8c23b;
+
+  position: relative;
+  &::before {
+    transform: rotate(90deg);
+  }
+}
+
+.info-title::before,
+.info-title::after {
+  @include point-mobile-max {
+    content: "";
+    width: 16px;
+    height: 2px;
+    background-color: #262626;
+    position: absolute;
+    right: 16px;
+    top: 20px;
+  }
+}
+.active::before {
+  transform: rotate(0deg);
 }
 
 .info-text {
